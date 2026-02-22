@@ -6,3 +6,72 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+body {
+    background-color: #f4f6f9;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #0d6efd, #0a58ca);
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd43b !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-success {
+    border-radius: 8px;
+}
+
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+footer {
+    background: #212529;
+}
+
+footer a, 
+footer a:hover, 
+footer i {
+    color: #ffffff !important; /* Make all footer links and icons white */
+}
+
+footer a:hover {
+    color: #ffd43b !important; /* Optional: highlight on hover */
+}
+
+footer a.text-muted{
+    color: #ffffff !important; /* Regular links and icons are white */
+}
